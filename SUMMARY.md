@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Il linguaggio di programmazione Rust](README.md)
+* [README.md](README.md)
+* [Il linguaggio di programmazione Rust](<README (1).md>)
 * [Page 1](page-1.md)
 * [Page 2](page-2.md)
 * [Page 3](page-3.md)
@@ -20,4 +21,3 @@
 * [Page 17](page-17.md)
 * [21. Appendici](21.-appendici/README.md)
   * [21.6. Appendice F - Le traduzione del Libro](21.-appendici/21.6.-appendice-f-le-traduzione-del-libro.md)
-* [README.md](readme.md.md)
