@@ -11,4 +11,4 @@ Puoi fare riferimento a "Installazione" - sezione del Capitolo 1 per installare 
 
 La versione HTML è disponibile online a [https://thepiratedude.github.io/rust-il-libro](https://thepiratedude.github.io/rust-il-libro) e offline (in inglese) con un'installazione di Rust fatta con `rustup`; lanciate il comando `rustup docs --book` per aprirla.
 
-Sono disponibili [diverse traduzioni](21.-appendici/21.6.-appendice-f-le-traduzione-del-libro.md) effettuate dalla comunità.
+Sono disponibili [diverse traduzioni](21-appendici/21.6.Appendice-f.md) effettuate dalla comunità.
