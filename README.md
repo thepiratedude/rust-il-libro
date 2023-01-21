@@ -1,71 +1,22 @@
-# Untitled
+# Una piccola introduzione
 
-## The Rust Programming Language
+Questo repository contiene i sorgenti per la traduzione italiana del libro "The Rust Programming Language".
 
-![Build Status](https://github.com/rust-lang/book/workflows/CI/badge.svg)
+Del repository originale in lingua inglese esistono 3 versioni [stable](https://doc.rust-lang.org/stable/book/), [beta](https://doc.rust-lang.org/beta/book/), or [nightly](https://doc.rust-lang.org/nightly/book/) che vengono rilasciate in base ai diversi rilasci di Rust. Questa versione italiana si baserò sempre sulla versione stable, se ci sarà modo in futuro verranno redatte anche le versioni aggiornate per i rilasci beta e nightly.
 
-This repository contains the source of "The Rust Programming Language" book.
+### Piattaforma e strumenti
 
-[The book is available in dead-tree form from No Starch Press](https://nostarch.com/rust).
+A differenza della documentazione in inglese per mia comodità e velocità di rilascio ho deciso di trascrivere questa versione italiana del "Libro" di  Rust con gitbook.\
+Gitbook si avvale di un sistema di sintassi markdown quindi è possibile modificare le singole pagine direttamente dal [_**repository**_](https://github.com/thepiratedude/rust-il-libro) _****_ github con qualsiasi programma preferiate, senza dover necessariamente agire da gitbook.\
+Il sottodominio rustd.thepiratedude.dev è usato solo per velocizzarne la ricerca e/o la memorizzazione. \
+\
+Per quanto riguarda la traduzione penso più al risultato finale e non al metodo con il quale arrivarci, certo è necessario sapere l'inglese per ottimizzare una traduzione e contestualizzarla al meglio ma Deepl, you.com e ChatGPT a oggi sono ottimi colleghi se utilizzati intelligentemente.\
+Quindi non facciamo un copia incolla di quello che è il risultato, leggiamo sempre prima tutto l'articolo in inglese per avere un'idea chiara di cosa stiamo traducendo, ma se volete una bozza sulla quale iniziare potete usare pure questi strumenti.
 
-You can also read the book for free online. Please see the book as shipped with the latest [stable](https://doc.rust-lang.org/stable/book/), [beta](https://doc.rust-lang.org/beta/book/), or [nightly](https://doc.rust-lang.org/nightly/book/) Rust releases. Be aware that issues in those versions may have been fixed in this repository already, as those releases are updated less frequently.
+### Codice di condotta e Contribuzioni
 
-See the [releases](https://github.com/rust-lang/book/releases) to download just the code of all the code listings that appear in the book.
-
-### Requirements
-
-Building the book requires [mdBook](https://github.com/rust-lang-nursery/mdBook), ideally the same version that rust-lang/rust uses in [this file](https://github.com/rust-lang/rust/blob/master/src/tools/rustbook/Cargo.toml). To get it:
-
-```bash
-$ cargo install mdbook --version <version_num>
-```
-
-### Building
-
-To build the book, type:
-
-```bash
-$ mdbook build
-```
-
-The output will be in the `book` subdirectory. To check it out, open it in your web browser.
-
-_Firefox:_
-
-```bash
-$ firefox book/index.html                       # Linux
-$ open -a "Firefox" book/index.html             # OS X
-$ Start-Process "firefox.exe" .\book\index.html # Windows (PowerShell)
-$ start firefox.exe .\book\index.html           # Windows (Cmd)
-```
-
-_Chrome:_
-
-```bash
-$ google-chrome book/index.html                 # Linux
-$ open -a "Google Chrome" book/index.html       # OS X
-$ Start-Process "chrome.exe" .\book\index.html  # Windows (PowerShell)
-$ start chrome.exe .\book\index.html            # Windows (Cmd)
-```
-
-To run the tests:
-
-```bash
-$ mdbook test
-```
-
-### Contributing
-
-We'd love your help! Please see [CONTRIBUTING.md](https://github.com/rust-lang/book/blob/main/CONTRIBUTING.md) to learn about the kinds of contributions we're looking for.
-
-Because the book is [printed](https://nostarch.com/rust), and because we want to keep the online version of the book close to the print version when possible, it may take longer than you're used to for us to address your issue or pull request.
-
-So far, we've been doing a larger revision to coincide with [Rust Editions](https://doc.rust-lang.org/edition-guide/). Between those larger revisions, we will only be correcting errors. If your issue or pull request isn't strictly fixing an error, it might sit until the next time that we're working on a large revision: expect on the order of months or years. Thank you for your patience!
-
-#### Translations
-
-We'd love help translating the book! See the [Translations](https://github.com/rust-lang/book/issues?q=is%3Aopen+is%3Aissue+label%3ATranslations) label to join in efforts that are currently in progress. Open a new issue to start working on a new language! We're waiting on [mdbook support](https://github.com/rust-lang-nursery/mdBook/issues/5) for multiple languages before we merge any in, but feel free to start!
-
-### Spellchecking
-
-To scan source files for spelling errors, you can use the `spellcheck.sh` script available in the `ci` directory. It needs a dictionary of valid words, which is provided in `ci/dictionary.txt`. If the script produces a false positive (say, you used word `BTreeMap` which the script considers invalid), you need to add this word to `ci/dictionary.txt` (keep the sorted order for consistency).
+Vorrei che fosse chiaro a chiunque navighi su queste pagine che questo è un progetto personale, lo sto portando avanti mentre studio Rust e ogni contributo, commento e/o **critica costruttiva** sono ben accetti.\
+Chiunque voglia partecipare è il benvenuto, chiedo solo venga rispettato il [codice di condotta ](https://www.rust-lang.org/it/policies/code-of-conduct)che viene illustrato sul sito di Rust.\
+Infine vi prego, al fine di rendere questo repository utile e facilmente fruibile a tutti, di utilizzare un italiano corretto e semplice per quanto possibile e di evitare l'abuso di termini in inglese dove possibile.\
+\
+La licenza usata è la medesima del libro originale, vi prego di attenervi alle sue regolamentazioni in caso vogliate usare questa versione tradotta.

@@ -1,7 +1,7 @@
 ---
 description: >-
   di Steve Klabnik e Carol Nichols, con il contributo della "Rust Community",
-  tradotto da David Bellini
+  traduzione di David Bellini
 ---
 
 # Il linguaggio di programmazione Rust
